@@ -1,0 +1,60 @@
+/* OffersList.css */
+.offers-section {
+  margin-bottom: 20px;
+}
+
+.offers-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.offers-row {
+  display: flex;
+  overflow-x: auto;
+  padding: 10px 0;
+}
+
+.offers-row::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  flex: 0 0 auto;
+  width: 250px;
+  margin-right: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.card .title {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.card .description, .card .categories {
+  font-size: 0.9rem;
+  color: #757575;
+  margin-bottom: 10px;
+}
+
+/* Responsive styles for larger screens */
+@media (min-width: 600px) {
+  .card {
+    width: 300px;
+  }
+
+  .card .title {
+    font-size: 1.5rem;
+  }
+
+  .card .description, .card .categories {
+    font-size: 1rem;
+  }
+}

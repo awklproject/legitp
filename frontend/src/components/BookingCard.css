@@ -1,0 +1,35 @@
+/* BookingCard.css */
+.card {
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.date, .time, .confirmed {
+  font-size: 0.9rem;
+  color: #757575;
+  margin-bottom: 5px;
+}
+
+/* Responsive styles for larger screens */
+@media (min-width: 600px) {
+  .card {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .date, .time, .confirmed {
+    font-size: 1rem;
+  }
+}

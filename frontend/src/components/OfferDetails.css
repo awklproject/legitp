@@ -1,0 +1,38 @@
+/* OfferDetails.css */
+.offer-details__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.offer-details__main {
+  flex: 1;
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.offer-details__sidebar {
+  flex: 1;
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.offer-details__sidebar .MuiTextField-root {
+  margin-bottom: 15px;
+}
+
+@media (min-width: 900px) {
+  .offer-details__container {
+    flex-direction: row;
+  }
+
+  .offer-details__sidebar {
+    max-width: 300px;
+    margin-left: 20px;
+  }
+}
